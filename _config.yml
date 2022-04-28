@@ -1,0 +1,38 @@
+title:             Aman's Blog
+email:             aman.iitk072@gmail.com
+description:       A collection of the articles I wrote about several of my Life Experiences, Creations, Travel Guides, and Projects.
+author:            Aman Abhishek Tiwari
+baseurl:           "/blog"
+url:               "https://amanabt.github.io"
+logo:              "/img/logo.png"
+
+# Social Profiles
+
+github_username:    amanabt
+facebook_username:  aman.iitk072
+linkedin_username:  aman2official
+goodreads_username: 81434158-aman
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+      - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+algolia:
+  application_id: JOKM4G43ZF
+  index_name:     Jekyll Search
+  search_only_api_key: 1729cd0904b1ff8a78cd7b9f5bfbe30f
+
+

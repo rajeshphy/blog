@@ -1,0 +1,25 @@
+thanks for using faviconit!
+copy the files to your site and add this code inside the HTML <HEAD> tag:
+
+	<!-- ****** faviconit.com favicons ****** -->
+	<link rel="shortcut icon" href="/aman_abhishek_tiwari_logo.ico?v=1.0.0">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="/aman_abhishek_tiwari_logo.ico?v=1.0.0">
+	<link rel="icon" type="image/png" sizes="196x196" href="/aman_abhishek_tiwari_logo-192.png?v=1.0.0">
+	<link rel="icon" type="image/png" sizes="160x160" href="/aman_abhishek_tiwari_logo-160.png?v=1.0.0">
+	<link rel="icon" type="image/png" sizes="96x96" href="/aman_abhishek_tiwari_logo-96.png?v=1.0.0">
+	<link rel="icon" type="image/png" sizes="64x64" href="/aman_abhishek_tiwari_logo-64.png?v=1.0.0">
+	<link rel="icon" type="image/png" sizes="32x32" href="/aman_abhishek_tiwari_logo-32.png?v=1.0.0">
+	<link rel="icon" type="image/png" sizes="16x16" href="/aman_abhishek_tiwari_logo-16.png?v=1.0.0">
+	<link rel="apple-touch-icon" href="/aman_abhishek_tiwari_logo-57.png?v=1.0.0">
+	<link rel="apple-touch-icon" sizes="114x114" href="/aman_abhishek_tiwari_logo-114.png?v=1.0.0">
+	<link rel="apple-touch-icon" sizes="72x72" href="/aman_abhishek_tiwari_logo-72.png?v=1.0.0">
+	<link rel="apple-touch-icon" sizes="144x144" href="/aman_abhishek_tiwari_logo-144.png?v=1.0.0">
+	<link rel="apple-touch-icon" sizes="60x60" href="/aman_abhishek_tiwari_logo-60.png?v=1.0.0">
+	<link rel="apple-touch-icon" sizes="120x120" href="/aman_abhishek_tiwari_logo-120.png?v=1.0.0">
+	<link rel="apple-touch-icon" sizes="76x76" href="/aman_abhishek_tiwari_logo-76.png?v=1.0.0">
+	<link rel="apple-touch-icon" sizes="152x152" href="/aman_abhishek_tiwari_logo-152.png?v=1.0.0">
+	<link rel="apple-touch-icon" sizes="180x180" href="/aman_abhishek_tiwari_logo-180.png?v=1.0.0">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="/aman_abhishek_tiwari_logo-144.png?v=1.0.0">
+	<meta name="msapplication-config" content="/browserconfig.xml">
+	<!-- ****** faviconit.com favicons ****** -->

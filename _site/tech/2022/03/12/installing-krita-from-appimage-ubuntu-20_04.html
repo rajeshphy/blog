@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Installing Krita in Ubuntu 20.04 using the AppImage and creating a desktop entry - Aman&#39;s Blog
+    
+  </title>
+
+  <meta name="description" content="">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/blog/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/blog/assets/vendor/fontawesome-free/css/all.min.css">
+
+  <link rel="stylesheet" href="/blog/assets/main.css">
+  <link rel="stylesheet" href="/blog/assets/scss/additional.css">
+  <link rel="canonical" href="http://localhost:4000/blog/tech/2022/03/12/installing-krita-from-appimage-ubuntu-20_04.html">
+  <link rel="alternate" type="application/rss+xml" title="Aman&#39;s Blog" href="/blog/feed.xml">
+  <link rel="shortcut icon" href="http://localhost:4000/blog/img/icons/favicon.ico">
+  <link href="http://localhost:4000/blog/assets/scss/prism.css" rel="stylesheet" />
+</head>
+
+
+  <body>
+    
+    <link rel='shortcut icon' type='image/x-icon' href='/img/icons/favicon.ico' />
+
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a href="/blog/" class="logo">
+      
+      <img src="/blog/img/logo.png" alt="Aman's Blog">
+      
+    </a>
+    <a class="navbar-brand" href="/blog/">Aman&#39;s Blog</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000">Homepage</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/blog/">Blog Home</a>
+        </li>
+        <li class="nav-item dropdown" style="text-decoration: none;">
+            <a href="/blog/posts">Posts &#9660;</a>
+          <div class="dropdown-content">
+              
+                <a href="/blog/poetry">
+                    Poetry
+                </a>
+              
+                <a href="/blog/travel">
+                    Travel
+                </a>
+              
+                <a href="/blog/tech">
+                    Tech
+                </a>
+              
+                <a href="/blog/lifestyle">
+                    Lifestyle
+                </a>
+              
+                <a href="/blog/literature">
+                    Literature
+                </a>
+              
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/blog/contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/blog/search">Search</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- Page Header -->
+
+<header class="masthead" style="background-image: url('/blog/img/posts/2022-03-12-installing-krita-from-appimage-ubuntu-20-04.jpeg')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Installing Krita in Ubuntu 20.04 using the AppImage and creating a desktop entry</h1>
+            
+            <span class="meta">Posted by
+              <a href="#">Aman Abhishek Tiwari</a>
+              on March 12, 2022 &middot; <span class="reading-time" title="Estimated read time">
+  
+   3 mins  read </span>
+</span>
+             <span class="meta">
+              Categories:
+              
+                  <a href="/blog/tech">
+                      Tech
+                  </a>
+              
+             </span>
+            
+            <span class="meta"> Backdrop Taken from <a href="https://krita-artists.org/t/mosquito-lagoon/38138"> Krita's Website </a> </span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <script src="http://localhost:4000/blog/assets/js/prism.js"></script>
+
+<p>
+Krita is a sketching and painting program. It is also be used for 2D animations and is considered
+an free and open source alternative to Adobe Animate. Their recommended way to use Krita is to
+download the App Image and run it as an executable. But this way you would have run the file from
+the terminal every time you want to use it. Wouldn't it be better if we could run the app as any
+other normal application! This tutorial explains how you can install Krita's AppImage (and for that
+matter any AppImage) and run it like you would run any other application.
+</p>
+
+<ol>
+  <li> Download Krita's AppImage from their website's download page <a href="https://krita.org/en/download/krita-desktop/" rel="nofollow">here.</a></li>
+
+  <li> Open the terminal and go to the directory where the AppImage has been downloaded </li>
+
+  <li> Run <code> chmod +x krita.appimage </code> </li>
+
+  <li> Copy the AppImage to <code> /usr/local/bin/</code> or <code>~/.local/bin/</code> using the <code>cp</code> command. Use <code>sudo</code> if you get the <code>Permission Denied</code> error. </li>
+
+  <li> Change directory to the directory where the AppImage was downloaded </li>
+
+  <li> Run <code> ./krita.appimage --appimage-extract </code></li>
+
+  <li> This should extract the contents of the AppImage into the directory <code> squashfs-root </code> in the same directory </li>
+
+  <li> <code> cd </code> into the <code> squashfs-root </code> directory and open the file <code> org.kde.krita.desktop </code> in a text editor for editing. </li>
+
+  <li> Search for the line saying <code> Exec=krita %F </code> and replace <code>krita</code> with the location where you copied the AppImage. Eg. If you copied the AppImage to <code>/usr/local/bin/</code>, then the location of the AppImage is <code>/usr/local/bin/krita.appimage</code>. Save changes and exit. </li>
+
+  <li> Copy the modified <code> org.kde.krita.desktop </code> file to <code> /.local/share/applications/ </code> directory. </li>
+
+  <li> This will create a desktop entry for <code> Krita </code> but we still need to put the desktop icon in the proper directory. </li>
+
+  <li> Now copy icon file, <code>krita.png</code> to <code>/usr/share/pixmaps/</code> using <code>sudo</code> </li>
+
+  <li> Restart the GNOME shell by pressing <code>Alt+F2</code> and Run <code>restart</code>. You may even try restarting the computer. </li>
+
+  <li> After this the AppImage should be properly installed along with the desktop entry.</li>
+
+  <li> This approach can be followed for other AppImages as well </li>
+</ol>
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+
+        s.src = 'https://amanabt.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          <a class="btn btn-primary float-left" href="/blog/literature/2021/10/05/book-review-the-silent-patient.html"
+            data-toggle="tooltip" data-placement="top" title="The Silent Patient by Alex Michaelides">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          
+          
+          <a class="btn btn-primary float-right" href="/blog/tech/2022/04/26/test-blog.html"
+            data-toggle="tooltip" data-placement="top" title="Test Blog">Next<span class="d-none d-md-inline">
+              Post</span> &rarr;</a>
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="mailto:aman.iitk072@gmail.com">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-mailchimp fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/aman.iitk072">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/aman2official">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/amanabt">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.goodreads.com/user/show/81434158-aman">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-goodreads fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Aman Abhishek Tiwari 2022</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="/blog/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/blog/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/blog/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/blog/assets/scripts.js"></script>
+
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136869850-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136869850-1');
+</script>
+
+
+
+  </body>
+
+</html>
