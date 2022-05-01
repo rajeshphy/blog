@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "What is calculus of variations?"
 subtitle:
-credits: "Photo by Aman Abhishek Tiwari"
+credits: "Photo by -"
 categories: [science]
 date:   2022-05-01 00:00:00 +0530
 background: '/img/posts/bg-blog1.jpg'
