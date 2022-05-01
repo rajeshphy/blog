@@ -5,7 +5,7 @@ title:  "Training Blog"
 subtitle: "This is a training blog"
 credits:
 categories: [science, tech]
-date:   2022-05-02 00:00:00 +0530
+date:   2022-05-01 00:00:00 +0530
 background: '/img/posts/bg-blog1.jpg'
 ---
 
