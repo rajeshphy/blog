@@ -20,11 +20,6 @@ If you have any of these or related symptoms then you have not tried enough thin
 I would like to know your views on this. Don't forget to leave a comment below.
 
 
-<img src="{{"/img/posts/01.jpg" | relative_url }}" alt="GitHub Token Generator" style="max-width:100%;">
-
-$$ f(x) = \frac{dy}{dx} $$
-
-This is a inline latex equation $$ f(x) = \frac{dy}{dx} $$
 
 
 
