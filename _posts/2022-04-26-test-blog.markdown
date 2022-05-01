@@ -4,7 +4,7 @@ comments: true
 title:  "Test Blog"
 subtitle: "Test Blog for Rajesh"
 credits: "Photo by Aman Abhishek Tiwari"
-categories: [tech, travel, poetry, lifestyle]
+categories: [tech, travel, science, lifestyle]
 date:   2022-04-26 20:00:00 +0530
 background: '/img/nainital-2019-03/nainital-2019-03-x2.jpg'
 ---
