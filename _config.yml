@@ -1,17 +1,17 @@
-title:             Aman's Blog
-email:             aman.iitk072@gmail.com
+title:             Rajesh's Blog
+email:             kr.rajesh.phy@gmail.com
 description:       A collection of the articles I wrote about several of my Life Experiences, Creations, Travel Guides, and Projects.
-author:            Aman Abhishek Tiwari
+author:            Rajesh Kumar
 baseurl:           "/blog"
 url:               "https://consultt.github.io"
 logo:              "/img/logo.png"
 
 # Social Profiles
 
-github_username:    consultt
-facebook_username:  aman.iitk072
-linkedin_username:  aman2official
-goodreads_username: 81434158-aman
+github_username:    bittugithub1
+facebook_username:  Rajesh-Physics-103463492361482
+linkedin_username:  rajesh-kumar-muri
+goodreads_username: 150767937-rajesh
 
 # Build settings
 markdown:          kramdown
