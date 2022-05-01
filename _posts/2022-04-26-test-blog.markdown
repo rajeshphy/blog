@@ -9,6 +9,11 @@ date:   2022-04-26 20:00:00 +0530
 background: '/img/nainital-2019-03/nainital-2019-03-x2.jpg'
 ---
 
+<img src="{{"/img/posts/01.jpg" | relative_url }}" alt="GitHub Token Generator" style="max-width:100%;">
+
+$$ f(x) = \frac{dy}{dx} $$
+
+This is a inline latex equation $$ f(x) = \frac{dy}{dx} $$
 
 {% if page.comments %}
 <div id="disqus_thread"></div>
