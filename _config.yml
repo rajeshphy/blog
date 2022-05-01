@@ -30,9 +30,9 @@ jekyll-archives:
   permalinks:
     category: '/category/:name/'
 
-algolia:
-  application_id: JOKM4G43ZF
-  index_name:     Jekyll Search
-  search_only_api_key: 1729cd0904b1ff8a78cd7b9f5bfbe30f
+    #algolia:
+    #application_id: JOKM4G43ZF
+    #index_name:     Jekyll Search
+    #search_only_api_key: 1729cd0904b1ff8a78cd7b9f5bfbe30f
 
 
