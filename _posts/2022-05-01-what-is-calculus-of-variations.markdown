@@ -9,6 +9,9 @@ date:   2022-05-01 00:00:00 +0530
 background: '/img/posts/bg-blog1.jpg'
 ---
 
+Understand with an example
+========
+
 Before we jump into the core topic let's discuss one example. We have a circular disc
  of radius  as shown in the figure below.
 
