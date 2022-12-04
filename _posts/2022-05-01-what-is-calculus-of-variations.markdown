@@ -39,8 +39,8 @@ This curve has following two *important* properties:
   the least of all possible paths.</li>
 
   <li>If the object starts to fall a little bit below the point 'A', say from point 'B'
-  then also the fall time is the same as that of fall time from point 'A'. This makes
-  the cycloid a tautochrone or **same-time curve**.</li>
+  and the fall time is the same as that of fall time from point 'A'. Then
+   the cycloid becomes a tautochrone or **same-time curve**.</li>
 </ol>
 
 Are there any other **brachistochrones** joining O and B, or is the cycloid the
