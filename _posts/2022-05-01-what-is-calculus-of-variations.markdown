@@ -40,7 +40,7 @@ This curve has following two *important* properties:
 
   <li>If the object starts to fall a little bit below the point 'A', say from point 'B'
   and the fall time is the same as that of fall time from point 'A'. Then
-   the cycloid becomes a tautochrone or **same-time curve**.</li>
+   the <strong>cycloid</strong> becomes a tautochrone or **same-time curve**.</li>
 </ol>
 
 Are there any other **brachistochrones** joining O and B, or is the cycloid the
