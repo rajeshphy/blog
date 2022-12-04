@@ -33,13 +33,13 @@ or the **shortest-time curve**.
 This curve has following two *important* properties:
 
 <ol>
-  <li>The path which an object takes to go from point  to  in the shortest time
+  <li>The path which an object takes to go from point 'A' to 'B' in the shortest time
   possible under the influence of gravity is this brachistrone curve called a
   cycloid. So if the fall follows the brachistrone path then the fall time is
   the least of all possible paths.</li>
 
-  <li>If the object starts to fall a little bit below the point , say from point
-  then also the fall time is the same as that of fall time from point . This makes
+  <li>If the object starts to fall a little bit below the point 'A', say from point 'B'
+  then also the fall time is the same as that of fall time from point 'A'. This makes
   the cycloid a tautochrone or **same-time curve**.</li>
 </ol>
 
@@ -78,17 +78,17 @@ It is well known that infinitesimal distance $$dS$$ can be expressed in terms of
 and $$dy$$ using pythagorean theorem. Therefore $$ dS=\sqrt{dx^2+dy^2} $$, when $$dx^2$$
 is factored out we have:
 
-$$ dS = \sqrt{1 + \frac{dy}{dx}} $$
+$$ dS = dx\sqrt{1 + \frac{dy}{dx}} $$
 
 The equation for $$ dT $$ reduces to the following:
 
-$$ dT = \frac{\sqrt{1 + (\frac{dy}{dx})}}{\sqrt{2gy}} $$
+$$ dT = \frac{dx\sqrt{1 + (\frac{dy}{dx})}}{\sqrt{2gy}} $$
 
 When distance traced is longer the time taken is given by integration of
 $$dT$$. Therefore the time taken to move from one point of the curve to
 another, say from $$A$$ to $$B$$ is given by:
 
-$$ T = \int_{x=A}^{x=B} \sqrt{\frac{1 + (\frac{dy}{dx})}{2gy}} $$
+$$ T = \int_{x=A}^{x=B} dx\sqrt{\frac{1 + (\frac{dy}{dx})}{2gy}} $$
 
 
 ------------------------------------------------------------------------------------------
