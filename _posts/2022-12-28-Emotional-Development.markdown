@@ -75,8 +75,8 @@ Motivation: In this construct it is theorized that a person with high emotional 
 Conclusion: Emotional intelligence affects every area of our life whether in business, ministry, human services, education or any other field. Therefore it is essential that the means suggested above should be incorporated in day-to-day life to lead a successful and a happy life.
 
 **References:**
-..* An Introduction to Theories of Personality Lawrence Erlbaum Associates, Publishers, New Jersey.
-..* Personal-Emotional Development and Counseling by Mahatma Gandhi National Council of Rural Education.
+* An Introduction to Theories of Personality Lawrence Erlbaum Associates, Publishers, New Jersey.
+* Personal-Emotional Development and Counseling by Mahatma Gandhi National Council of Rural Education.
 
 
 
