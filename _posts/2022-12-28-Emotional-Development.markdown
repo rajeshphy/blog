@@ -8,9 +8,6 @@ categories: [lifestyle]
 date:   2022-12-28 02:00:00 +0530
 background: '/img/nainital-2019-03/nainital-2019-03-x2.jpg'
 ---
-
-<img src="{{"/img/posts/01.jpg" | relative_url }}" alt="GitHub Token Generator" style="max-width:100%;">
-
 **Introduction:** It is the progress or development that an individual's look for in any field and it is the key to the survival of mankind. It is here the word “emotional intelligence” comes in which determines the progress or development of an individual in his/her career path. The concept of self or identity and knowing different types of personalities existing around us goes a long way in managing the challenges and hurdles one faces in life’s journey. The key ingredients of an emotional intelligence are self-awareness, self-control, self-motivation, empathy, etc. Individuals who excel in these traits are found to achieve a lot better than those who don’t. It is therefore necessary to study the elements of emotional intelligence and learn means to improve the emotional intelligence. This article talks about the concept of identity, defining characteristics of a personality and an introduction to emotional  intelligence. 
 
 **1. Concept of Identity**
@@ -75,35 +72,11 @@ Social scale: This construct involves the ability to use the first two construct
 Empathy: In this construct a person feels sorry for the bad or difficult circumstance another person is facing and takes this factor into consideration when making a decision. Empathy often serves pragmatic and emotional purposes.
 Motivation: In this construct it is theorized that a person with high emotional intelligence will be able to motivate himself.
 
-Daniel Goleman suggested ways to handle personal and social situations which is tabulated below:
-| Personal skills to manage ourselves|Social skills to handle relationships with others|
-| ------------- |:-------------:|
-|#Self - Awareness|#Empathy|
-|..* Emotional awareness|..* Understanding others|
-|..* Accurate self - assessment |..* Developing others  |
-|..* Self – confidence|..* Service orientation  |
-||..* Leveraging diversity|  
-||..* Political awareness|
-|#Self - Regulation |#Social Skills  |
-|..* Self – Control |..* Influence  |
-|..* Trustworthiness|..* Communication|
-|..* Conscientiousness |..* Conflict management|
-|..* Adaptability  |..* Leadership  |
-|..* Innovation |..* Change catalyst  |
-||..* Building bonds  |
-||..* Collaboration and cooperation |
-||..* Team capabilities|
-|#Motivation||
-|..* Achievement drive|| 
-|..* Commitment  ||
-|..* Initiative||  
-|..* Optimism||
-
 Conclusion: Emotional intelligence affects every area of our life whether in business, ministry, human services, education or any other field. Therefore it is essential that the means suggested above should be incorporated in day-to-day life to lead a successful and a happy life.
 
-References:
-An Introduction to Theories of Personality Lawrence Erlbaum Associates, Publishers, New Jersey.
-Personal-Emotional Development and Counseling by Mahatma Gandhi National Council of Rural Education.
+####References:
+..* An Introduction to Theories of Personality Lawrence Erlbaum Associates, Publishers, New Jersey.
+..* Personal-Emotional Development and Counseling by Mahatma Gandhi National Council of Rural Education.
 
 
 
