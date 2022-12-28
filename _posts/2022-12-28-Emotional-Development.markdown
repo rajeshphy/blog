@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Personal-Emotional Development"
-subtitle: "Dimensions Of Emotional Intelligence"
+subtitle: "A brief introduction to Emotional Development"
 credits: "Photo by Rajesh Kumar"
 categories: [lifestyle]
 date:   2022-12-28 02:00:00 +0530
