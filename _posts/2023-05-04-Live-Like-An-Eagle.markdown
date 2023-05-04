@@ -8,6 +8,8 @@ categories: [lifestyle]
 date:   2023-05-04 16:00:00 +0530
 background: '/img/posts/eagle.jpeg'
 ---
+Transform yourself or die
+========
 Eagle can live upto 70 years but to make this long journey it has to make some toughest decision in life. It is a live example of transformation and the determination to live. This story influenced me deeply and has always motivated me, and I hope it will inspire you as well. 
 Eagles are considered as a symbol of strength, courage and bravery.
 An Eagle in its late 30’s has to make a toughest decision as It’s old aged and heavy wings, due to their thick feathers get stuck to its chest and make it difficult to fly. It’s long and sharp beak becomes bent. it’s long and flexible talons (claws) which no longer can grab prey and therefore difficulty in getting food.
