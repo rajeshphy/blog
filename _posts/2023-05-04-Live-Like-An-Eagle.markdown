@@ -8,7 +8,7 @@ categories: [lifestyle]
 date:   2023-05-04 16:00:00 +0530
 background: '/img/posts/eagle.jpeg'
 ---
-Transform yourself or die
+Transform or Die
 ========
 Eagle can live upto 70 years but to make this long journey it has to make some toughest decision in life. It is a live example of transformation and the determination to live. This story influenced me deeply and has always motivated me, and I hope it will inspire you as well. 
 Eagles are considered as a symbol of strength, courage and bravery.
