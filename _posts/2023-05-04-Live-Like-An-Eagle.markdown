@@ -11,8 +11,10 @@ background: '/img/posts/eagle.jpeg'
 Transform or Die
 ========
 Eagle can live upto 70 years but to make this long journey it has to make some toughest decision in life. It is a live example of transformation and the determination to live. This story influenced me deeply and has always motivated me, and I hope it will inspire you as well. 
+<br>
 Eagles are considered as a symbol of strength, courage and bravery.
 An Eagle in its late 30’s has to make a toughest decision as It’s old aged and heavy wings, due to their thick feathers get stuck to its chest and make it difficult to fly. It’s long and sharp beak becomes bent. it’s long and flexible talons (claws) which no longer can grab prey and therefore difficulty in getting food.
+<br>
 The Eagle then is left with only two decisions: to die or to transform itself so that it can live longer.
 
 Determined to live, the Eagle undergoes molting, and to be safe from predators, they choose a secure valley to start this process. There the Eagle knocks its beak against a mountain top until it plucks it out. After plucking it out the Eagle waits for a new beak to grow back. It then plucks out its talons. When it’s new talons grow back, the Eagle starts plucking out its old-aged feathers and waits for new and strong feathers to grow. 
