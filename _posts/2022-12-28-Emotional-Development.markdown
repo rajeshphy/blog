@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Personal-Emotional Development"
+title:  "Emotional Development"
 subtitle: "A brief introduction to Emotional Development"
 credits: "Photo by Rajesh Kumar"
 categories: [lifestyle]
