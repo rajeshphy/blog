@@ -26,6 +26,7 @@ This painful process continues for a period of 5 months, the Eagle rejuvenates i
 
 
 **Moral of the story:** Be Determined and firm in your purpose.
+<br>
 The Eagle never loses the will to live longer even though it is old and weak. It believes that it has the potential to struggle and live a longer life. It goes against the normal belief and fights for new life.
 
 
