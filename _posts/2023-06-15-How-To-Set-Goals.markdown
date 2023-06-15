@@ -5,7 +5,7 @@ title:  "How to set life goals"
 subtitle: "Life Goals"
 credits: "Photo by Rajesh Kumar"
 categories: [tech, travel, science, lifestyle]
-date:   2021-04-26 20:00:00 +0530
+date:   2023-06-15 19:00:00 +0530
 background: '/img/posts/bg-blog1.jpg'
 ---
 
