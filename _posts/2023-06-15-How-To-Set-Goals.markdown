@@ -10,10 +10,9 @@ background: '/img/posts/bg-blog1.jpg'
 ---
 
 
-How to set goals in life?
+How to set long-term goals?
 ========
 
-<h1>How to Set Long-Term Goals</h1>
 <p>Setting long-term goals can be a daunting task, but it's important to have something to strive for. Here are some tips on how to set and achieve your long-term goals:</p>
 <ul>
 <li><strong>Visualize your ideal future.</strong> What do you want to achieve in the next 5, 10, or even 20 years? Close your eyes and take some time to really picture your ideal future. What are you doing? Where are you living? Who are you with? The more vivid your visualization, the more motivated you'll be to achieve your goals.
