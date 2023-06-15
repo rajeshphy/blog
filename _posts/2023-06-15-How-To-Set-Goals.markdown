@@ -28,7 +28,7 @@ How to set long-term goals?
 <li><strong>Make a plan to track your progress.</strong> It's important to track your progress so that you can see how you're doing and make adjustments as needed. There are a number of different ways to track your progress, such as using a journal, a spreadsheet, or a project management tool.
 </li>
 <li><strong>Don't give up.</strong> There will be times when you feel like giving up. But if you keep working hard and never give up, you will eventually achieve your goals.
-</ul>
+
 <p>Setting long-term goals can be challenging, but it's also incredibly rewarding. By following these tips, you can increase your chances of success.</p>
 <p>Here are some additional tips that may help you set and achieve your long-term goals:</p>
 <ul>
@@ -37,7 +37,7 @@ How to set long-term goals?
 <li><strong>Find a mentor or coach.</strong> Having someone who can offer guidance and support can be invaluable.
 </li>
 <li><strong>Celebrate your successes.</strong> It's important to take time to appreciate your accomplishments, no matter how small.
-</ul>
+
 <p>Remember, setting and achieving long-term goals takes time and effort. But if you're willing to put in the work, you can achieve anything you set your mind to.</p>
 
 
