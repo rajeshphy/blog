@@ -12,12 +12,7 @@ background: '/img/posts/bg-blog1.jpg'
 
 How to set goals in life?
 ========
-<!DOCTYPE html>
-<html>
-<head>
-<title>How to Set Long-Term Goals</title>
-</head>
-<body>
+
 <h1>How to Set Long-Term Goals</h1>
 <p>Setting long-term goals can be a daunting task, but it's important to have something to strive for. Here are some tips on how to set and achieve your long-term goals:</p>
 <ul>
@@ -45,10 +40,6 @@ How to set goals in life?
 <li><strong>Celebrate your successes.</strong> It's important to take time to appreciate your accomplishments, no matter how small.
 </ul>
 <p>Remember, setting and achieving long-term goals takes time and effort. But if you're willing to put in the work, you can achieve anything you set your mind to.</p>
-</body>
-</html>
-
-
 
 
 
