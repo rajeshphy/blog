@@ -36,7 +36,7 @@ There are different ITR forms available based on your income sources and type of
 
 ## Step 4: Register on the Income Tax e-Filing Website
 
-If you haven't already, register on the Income Tax Department's e-Filing portal (https://www.incometax.gov.in/). Use your PAN as the user ID.
+If you haven't already, register on the Income Tax Department's e-Filing portal [www.incometax.gov.in](https://www.incometax.gov.in/). Use your PAN as the user ID.
 
 ## Step 5: Prepare and Submit Your ITR Online
 
