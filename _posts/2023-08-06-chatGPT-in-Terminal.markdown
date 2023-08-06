@@ -10,102 +10,109 @@ background: '/img/nainital-2019-03/nainital-2019-03-x2.jpg'
 ---
 <img src="{{"/img/posts/terminal.jpg" | relative_url }}" alt="GitHub Token Generator" style="max-width:100%;">
 
-Are you tired of switching between your code editor and the browser to find that elusive piece of code or command? Say hello to GPT-CLI, the ultimate command-line productivity tool that brings the power of OpenAI’s ChatGPT (GPT-3.5) right to your terminal! GPT-CLI streamlines your development process by generating shell commands, code snippets, and more, helping you boost productivity and code like a wizard.
+As developers, we're always on the lookout for tools that can enhance our productivity and make our lives easier. Well, say hello to Shell-GPT, a game-changing command-line productivity tool that harnesses the power of OpenAI's ChatGPT (GPT-3.5) to supercharge your development process. With Shell-GPT, you can now generate shell commands, code snippets, comments, and documentation, all within the familiar confines of your terminal. No more need for cheat sheets or endless Google searches – this innovative tool brings accurate answers right to your fingertips.
 
 ## Installation and Setup
 
-To get started with GPT-CLI, follow these simple steps:
+Getting started with Shell-GPT is a breeze. Simply run the following command to install it:
 
-Step 1: Install GPT-CLI using pip
-
-```shell
-pip install gpt-cli
+```bash
+pip install shell-gpt
 ```
 
-Step 2: Obtain an API Key
-
-To use GPT-CLI, you'll need an OpenAI API key. Head over to [OpenAI's website](https://openai.com) to generate your API key.
-
-Step 3: Configure GPT-CLI
-
-Once you have your API key, set it up as an environment variable, or let GPT-CLI prompt you for it during the first run. Your API key will be securely stored in `~/.config/gpt_cli/config.yaml` for future use.
+To start using Shell-GPT, you'll need an OpenAI API key. You can generate one from the OpenAI website. Once you have your API key, Shell-GPT will automatically use the `$OPENAI_API_KEY` environment variable if it's set, or it will prompt you to enter the key and store it in `~/.config/shell_gpt/.sgptrc` for future use.
 
 ## Diverse Usage Scenarios
 
-GPT-CLI offers a plethora of use cases that cater to your coding and development needs. From simple queries to executing shell commands and generating code, GPT-CLI is your go-to companion for all things development.
+Shell-GPT is a versatile tool with a wide range of use cases, making it an invaluable asset for developers. Let's explore some of the scenarios where Shell-GPT can come to your rescue.
 
 ### Simple Queries
 
-Need quick answers without browsing the web? Use GPT-CLI like your personal search engine:
+With Shell-GPT, you can use your terminal as a powerful search engine. Ask any question, and get accurate answers instantly:
 
-```shell
-gpt-cli "current date and time in India"
-# -> The current date and time in India is 2023-08-06 15:30:00.
+```bash
+sgpt "What is the capital of France?"
+# -> The capital of France is Paris.
 
-gpt-cli "convert Celsius to Fahrenheit formula"
-# -> The formula to convert Celsius to Fahrenheit is: (Celsius * 9/5) + 32.
+sgpt "How do I check my public IP address?"
+# -> You can check your public IP address by running: `curl ifconfig.me`
 
-gpt-cli "definition of recursion"
-# -> Recursion is a programming technique where a function calls itself to solve a problem.
+sgpt "How many bytes are there in a kilobyte?"
+# -> 1 kilobyte is equal to 1024 bytes.
 ```
 
 ### Shell Commands
 
-Finding and running shell commands has never been easier with GPT-CLI's `--shell` option:
+Finding and executing shell commands has never been easier. Just use the `--shell` option:
 
-```shell
-gpt-cli --shell "list all files in current directory"
+```bash
+sgpt --shell "Create a new directory named 'project'"
+# -> mkdir project
+
+sgpt --shell "List all files in the current directory"
 # -> ls
+
+sgpt --shell "Remove a file named 'data.txt'"
+# -> rm data.txt
 ```
 
-Execute the command directly using the `--execute` (or `-e`) parameter:
+And if you want to directly execute the received command, simply add the `--execute` (or `-se`) parameter:
 
-```shell
-gpt-cli --shell --execute "list all files in current directory"
-# -> ls
+```bash
+sgpt --shell --execute "Install required Python packages"
+# -> pip install numpy matplotlib pandas
 # -> Execute shell command? [y/N]: y
 # ...
 ```
 
 ### Code Generation
 
-Generating code snippets is a breeze with GPT-CLI's `--code` parameter:
+Need to generate code snippets quickly? Shell-GPT has got you covered. Use the `--code` parameter along with your query:
 
-```shell
-gpt-cli --code "generate random numbers in Python"
-
-# -> Response
-import random
-
-random_numbers = [random.randint(1, 100) for _ in range(10)]
-print(random_numbers)
+```bash
+sgpt --code "Generate a random number between 1 and 10 in Python"
+# -> import random
+# -> random_number = random.randint(1, 10)
+# -> print(random_number)
 ```
 
-Redirect the output to a file and execute it:
+And since the output is valid Python code, you can easily redirect it to a file:
 
-```shell
-gpt-cli --code "generate random numbers in Python" > random_numbers.py
-python random_numbers.py
-# [86, 23, 57, 71, 4, 92, 10, 33, 29, 58]
+```bash
+sgpt --code "Create a simple web server using Flask"
+# -> from flask import Flask
+# ->
+# -> app = Flask(__name__)
+# ->
+# -> @app.route('/')
+# -> def hello_world():
+# ->     return 'Hello, World!'
+# ->
+# -> if __name__ == '__main__':
+# ->     app.run()
+# ->
+# -> Save this code in a file named 'app.py' and run it using 'python app.py'
 ```
 
 ### Chat Sessions
 
-Engage in interactive chat sessions with GPT-CLI for iterative improvements or dynamic queries:
+Want to have interactive sessions with ChatGPT to improve its suggestions iteratively? Shell-GPT makes it a breeze:
 
-```shell
-gpt-cli --chat favorite_color "my favorite color is blue"
-# -> Got it! Your favorite color is blue.
+```bash
+sgpt --chat language "Translate 'hello' to French"
+# -> 'hello' in French is 'bonjour'.
 
-gpt-cli --chat favorite_color "what color complements blue?"
-# -> Blue's complement is orange.
+sgpt --chat calculation "What is the square root of 144?"
+# -> The square root of 144 is 12.
 ```
 
 ## Conclusion
 
-With GPT-CLI, you can harness the power of AI directly in your terminal. Embrace the efficiency and convenience it brings to your development workflow, reducing the time spent searching for answers and enhancing your coding experience. Stay tuned for more exciting AI-driven tools and content to level up your coding game!
+In conclusion, Shell-GPT brings the power of AI right into your development workflow. By delivering quick, accurate, and context-aware answers directly within your terminal, Shell-GPT revolutionizes the way you interact with the command line, boosting your efficiency and effectiveness.
 
-Happy coding with GPT-CLI!
+Stay tuned for more exciting AI and No-Code content like this, and feel free to drop any questions you have in the comments below.
+
+Thanks for reading! Happy coding with Shell-GPT!
 
 {% if page.comments %}
 <div id="disqus_thread"></div>
