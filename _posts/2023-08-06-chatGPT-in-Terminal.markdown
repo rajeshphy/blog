@@ -8,8 +8,6 @@ categories: [tech]
 date:   2023-08-06 19:00:00 +0530
 background: '/img/nainital-2019-03/nainital-2019-03-x2.jpg'
 ---
-
-# Introducing GPT-CLI: Empower Your Terminal with AI Magic!
 <img src="{{"/img/posts/terminal.jpg" | relative_url }}" alt="GitHub Token Generator" style="max-width:100%;">
 
 Are you tired of switching between your code editor and the browser to find that elusive piece of code or command? Say hello to GPT-CLI, the ultimate command-line productivity tool that brings the power of OpenAI’s ChatGPT (GPT-3.5) right to your terminal! GPT-CLI streamlines your development process by generating shell commands, code snippets, and more, helping you boost productivity and code like a wizard.
@@ -108,9 +106,6 @@ gpt-cli --chat favorite_color "what color complements blue?"
 With GPT-CLI, you can harness the power of AI directly in your terminal. Embrace the efficiency and convenience it brings to your development workflow, reducing the time spent searching for answers and enhancing your coding experience. Stay tuned for more exciting AI-driven tools and content to level up your coding game!
 
 Happy coding with GPT-CLI!
-
-*ChatGPT*
-
 
 {% if page.comments %}
 <div id="disqus_thread"></div>
