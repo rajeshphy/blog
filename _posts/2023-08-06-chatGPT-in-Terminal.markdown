@@ -1,11 +1,11 @@
 ---
 layout: post
 comments: true
-title:  "Test Blog"
-subtitle: "Test Blog Format"
+title:  "ChatGPT in terminal"
+subtitle: "Empower Your Terminal with AI Magic!"
 credits: "Photo by Rajesh Kumar"
 categories: [tech]
-date:   2023-07-06 19:00:00 +0530
+date:   2023-08-06 19:00:00 +0530
 background: '/img/nainital-2019-03/nainital-2019-03-x2.jpg'
 ---
 
