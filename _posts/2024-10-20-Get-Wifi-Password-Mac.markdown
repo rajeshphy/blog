@@ -1,7 +1,12 @@
 ---
-title: "How to Retrieve Wi-Fi Password Using macOS Terminal"
-date: "October 20, 2024"
-description: "A step-by-step guide on how to show the saved Wi-Fi password on macOS using terminal commands."
+layout: post
+comments: true
+title:  "How to Retrieve Wi-Fi Password Using macOS Terminal"
+subtitle: "How to choose"
+credits:
+categories: [science, tech]
+date:   2024-10-20 00:00:00 +0530
+background: '/img/posts/bg-blog1.jpg'
 ---
 
 # How to Retrieve Wi-Fi Password Using macOS Terminal
