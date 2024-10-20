@@ -29,6 +29,7 @@ The first step is to identify the network services and their priorities on your 
 
 ```bash
 networksetup -listnetworkserviceorder
+```
 
 Explanation: This command lists all the network services available on your system, including Wi-Fi. Each network service is associated with a device identifier (like en0 for Wi-Fi). Look for the Wi-Fi service in the output, which will tell you its device identifier (usually en0).
 
@@ -36,32 +37,36 @@ Explanation: This command lists all the network services available on your syste
 
 Next, check the name (SSID) of the Wi-Fi network your system is currently connected to using:
 
+```bash
 networksetup -getairportnetwork en0
-
+```
 Explanation: Replace en0 with the device identifier you found in the previous step if necessary. This command displays the name of the Wi-Fi network you are connected to.
 
 3. List All Network Services
 
 If you’re unsure which service is Wi-Fi, you can list all network services to confirm.
 
+```bash
 networksetup -listallnetworkservices
-
+```
 Explanation: This command provides a list of all network services configured on your Mac, allowing you to double-check the name of the Wi-Fi service (typically Wi-Fi or Wi-Fi 2).
 
 4. Get Detailed Wi-Fi Information
 
 For more detailed information about the Wi-Fi network you are connected to, use:
 
+```bash
 networksetup -getinfo Wi-Fi
-
+```
 Explanation: This will show information such as the IP address, router, and subnet mask of the Wi-Fi network. Although this doesn’t reveal the password, it helps you understand the connection details.
 
 5. Retrieve the Wi-Fi Password
 
 Now, use the following command to display the saved Wi-Fi password from macOS’s Keychain:
 
+```bash
 security find-generic-password -ga "SSID"
-
+```
 Explanation: Replace "SSID" with the actual name of the Wi-Fi network (e.g., “HomeWiFi”). After running the command, you’ll be prompted to enter your macOS user password. If the password is stored in the keychain, it will be displayed on the screen.
 
 	•	The -ga flag ensures the password is displayed in plaintext.
@@ -73,24 +78,27 @@ Here’s an example of how this would work for a network called MyHomeWiFi:
 
 	1.	First, list network services to confirm your Wi-Fi service:
 
+```bash
 networksetup -listnetworkserviceorder
-
+```
 Look for something like:
 
 (1) Wi-Fi (Hardware Port: Wi-Fi, Device: en0)
 
 	2.	Check the current Wi-Fi network:
 
+```bash
 networksetup -getairportnetwork en0
-
+```
 Output:
 
 You are connected to: MyHomeWiFi
 
 	3.	Now, retrieve the password using the SSID:
 
+```bash
 security find-generic-password -ga "MyHomeWiFi"
-
+```
 You’ll be prompted for your system password. After entering it, you’ll see:
 
 password: "yourWiFiPassword"
